@@ -1,0 +1,39 @@
+.page-header {
+  width: 100%;
+  background-color: #3a545f;
+}
+
+.page-header__container {
+  display: flex;
+  flex-direction: row;
+  padding: 28px 35px 28px 210px;
+}
+
+.page-header__logo {
+  font-size: 11px;
+  line-height: 24px;
+  font-style: italic;
+  padding-top: 10px;
+  outline: 1px solid green;
+}
+
+.page-header__logo-image {
+  vertical-align: middle;
+  margin-right: 9px;
+  outline: 1px solid red;
+}
+
+.page-header__logo-description {
+  outline: 1px solid red;
+}
+
+.page-header__nav {
+  width: 480px;
+  margin-left: auto;
+  margin-right: 15px;
+  outline: 1px solid green;
+}
+
+.page-header__search {
+  outline: 1px solid green;
+}

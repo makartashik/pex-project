@@ -1,0 +1,23 @@
+.nav-list {
+  @include ul-standard;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.nav-list__item {
+  margin-right: 50px;
+
+  &:nth-child(5n) {
+    margin-right: 20px;
+  }
+}
+
+.nav-list__item a {
+  padding: 5px 0;
+}
