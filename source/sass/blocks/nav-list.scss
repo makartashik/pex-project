@@ -20,4 +20,16 @@
 
 .nav-list__item a {
   padding: 5px 0;
+
+  &:hover {
+    color: #64bfe1;
+  }
+
+  &:focus {
+    color: #64bfe1;
+  }
+
+  &:active {
+    color: #96c9d1;
+  }
 }

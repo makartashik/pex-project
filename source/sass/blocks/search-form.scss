@@ -2,6 +2,27 @@
   position: relative;
 }
 
+.search-form__button {
+  position: absolute;
+  right: 20px;
+  top: 14px;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  font-size: 0;
+  border: 0;
+  fill: #b6b6b6;
+  background-color: transparent;
+
+  &:hover {
+    fill: #64bfe1;
+  }
+
+  &:focus {
+    fill: #64bfe1;
+  }
+}
+
 .search-form__input {
   width: 220px;
   padding: 15px 40px 15px 28px;
@@ -13,16 +34,14 @@
     font-size: 12px;
     line-height: 74.54px;
   }
-}
 
-.search-form__button {
-  position: absolute;
-  right: 20px;
-  top: 14px;
-  padding: 0;
-  width: 20px;
-  height: 20px;
-  font-size: 0;
-  border: 0;
-  background-color: #ffffff;
+  &:hover {
+    padding: 14px 39px 14px 27px;
+    border: 1px solid #64bfe1;
+  }
+
+  &:focus {
+    padding: 14px 39px 14px 27px;
+    border: 1px solid #64bfe1;
+  }
 }
