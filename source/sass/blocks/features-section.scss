@@ -1,0 +1,13 @@
+.features-section {
+  background-color: #2e3b4e;
+}
+
+.features-section__container {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.features-section__list {
+  @include ul-standard;
+  margin-left: 15.5%;
+}
